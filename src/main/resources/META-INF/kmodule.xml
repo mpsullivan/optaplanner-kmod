@@ -1,0 +1,5 @@
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+    <kbase name="ws.salient.optaplanner" packages="ws.salient.optaplanner" eventProcessingMode="stream">
+        <ksession name="ws.salient.optaplanner.session" type="stateful" default="true"/>
+    </kbase>
+</kmodule>
